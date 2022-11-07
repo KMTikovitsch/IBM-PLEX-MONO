@@ -1,0 +1,307 @@
+@media screen and (min-width: 1440px){
+  .top{
+    background-color: #141414;
+  }
+}
+.font{
+  font-family: 'IBM Plex Mono';
+  color: #9A9A9A;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+.allbg{
+  background-color: #141414;
+  padding: 20px;
+}
+
+.title{
+  font-stretch: extra-expanded;
+  font-size: 25px;
+  opacity: 66%;
+  color: #70CAD5;
+}
+
+.fontlink a{
+  decoration: none;
+  font-size: 35px;
+  color:#991C1C;
+}
+
+.title2{
+  font-stretch: extra-expanded;
+  font-size: 50px;
+  opacity: 33%;
+  color: #70CAD5;
+}
+
+.topdecor{
+height: 1000px;
+width: 50px;
+background-color: #991C1C;
+position: relative;
+bottom: 1050px;
+left: 1200px;
+margin-bottom: -1050px;
+}
+
+.topdecor2{
+  height: 20px;
+  width: 1000px;
+  background-color: #991C1C;
+  position: relative;
+  bottom: 735px;
+  left: 350px;
+  margin-bottom: -20px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 400px 500px;
+  grid-template-rows: 350px;
+  border-color: black;
+  padding-bottom: 200px;
+}
+
+.wordbank1{
+  background-color: #70CAD5;
+  color: #70CAD5;
+  font-size: 150px;
+}
+.wordbank1:hover{
+  color: #A9EAF1;
+}
+
+.wordbank2{
+  background-color: #FFF698;
+  color: #FFF698;
+  font-size: 100px;
+  text-align: right;
+}
+.wordbank2:hover{
+  color: #E7D951;
+}
+
+.wordbank3{
+  background-color: #991C1C;
+  color: #991C1C;
+  font-size: 200px;
+  text-align: center;
+}
+.wordbank3:hover{
+  color: #DA1010;
+}
+
+
+.wordbank4{
+  background-color: #FFF698;
+  color: #FFF698;
+  font-size: 100px;
+}
+.wordbank4:hover{
+  color: #E7D951;
+}
+
+.wordbank5{
+  background-color: #70CAD5;
+  color: #70CAD5;
+  font-size: 150px;
+  text-align: right;
+}
+.wordbank5:hover{
+  color: #A9EAF1;
+}
+
+.casescroll{
+  color: #E7D951;
+  font-size: 40px;
+  border: 1px black;
+  border-radius: 5px;
+  height: 700px;
+  overflow: hidden;
+}
+
+.loremfillergrid{
+  display: grid;
+  grid-template-columns: 480px 480px 480px;
+  grid-template-columns: 480px 480px 480px;
+}
+
+.normal{
+  text-align: left;
+  font-size: 15px;
+  color: #70CAD5;
+  padding-left: 15px;
+}
+.normal2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #70CAD5;
+  padding-left: 15px;
+  line-height: 25px;
+  letter-spacing: .1rem;
+}
+
+.bold{
+  text-align: left;
+  font-size: 15px;
+  color:#991C1C;
+  padding-left: 15px;
+}
+.bold2{
+  line-height: 32px;
+  letter-spacing: .3rem;
+  font-size: 20px;
+  padding-left: 15px;
+  color: #991C1C;
+  font-weight: 800;
+}
+
+.italic{
+  text-align: left;
+  font-size: 15px;
+  color: #FFF698;
+  padding-left: 15px;
+}
+.italic2{
+  letter-spacing: -.2rem;
+  line-height: 17px;
+  font-weight: 800;
+  font-size: 20px;
+  color: #FFF698;
+  padding-left: 15px;
+}
+
+.stylestoselect{
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 2px 0 #9A9A9A;
+  padding-top: 200px;
+  padding-bottom: 70px;
+}
+
+.menu1 a,.menu2 a,.menu3 a,.menu4 a{
+color: #991C1C;
+font-size: 24px;
+}
+
+.menucontainer{
+  padding-top: 20px;
+  display:grid;
+  grid-template-columns: 10% 13% 15% 15%;
+}
+
+.experimentarea{
+
+}
+
+.expertitle{
+  color: white;
+  padding-top: 150px;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 2px 0 #9A9A9A;
+}
+
+
+
+.overlap{
+  padding-top: 0px;
+  font-size: 600px;
+  font-weight: 900;
+  opacity: 50%;
+  color: #70CAD5;
+  text-align: center;
+}
+.overlap2{
+  font-size: 600px;
+  font-weight: 900;
+  opacity: 50%;
+  color: #FFF698;
+  text-align: center;
+  position: relative;
+  bottom: 781px;
+  right: 70px;
+}
+.overlap3{
+  position: relative;
+  bottom: 1560px;
+  font-size: 600px;
+  font-weight: 900;
+  opacity: 50%;
+  color: #991C1C;
+  text-align: center;
+  margin-bottom: -1600px;
+  left: 70px;
+}
+
+
+
+.plex1, .plex2, .plex3, .plex4{
+  font-size: 200px;
+  color: white;
+  margin: 0px;
+  padding-left: 150px;
+}
+.plex1{
+  position: relative;
+  bottom: 550px;
+}
+.plex2{
+  position: relative;
+  bottom: 671px;
+  right: 6px;
+}
+.plex3{
+  position: relative;
+  bottom: 806px;
+}
+.plex4{
+  position: relative;
+  bottom: 941px;
+  margin-bottom: -1000px;
+}
+.plex5{
+  position: relative;
+  font-size: 150px;
+  color: white;
+  padding-left: 300px;
+  bottom: 450px;
+}
+
+.monoexp, .monoexp2, .monoexp3{
+  text-align: right;
+  font-size: 250px;
+  padding-right: 30px;
+}
+.monoexp{
+  font-weight: 600;
+  color: white;
+}
+.monoexp2{
+  font-weight: 100;
+  position: relative;
+  bottom: 525px;
+  color: #141414;
+  margin-bottom: -500px;
+}
+.monoexp3{
+  font-weight: 600;
+  position: relative;
+  bottom: 100px;
+  color:white;
+}
+.end{
+  font-size:50px;
+  color: #FFF698;
+  text-align: center;
+}
